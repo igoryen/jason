@@ -1,0 +1,225 @@
+@import '_variables';
+//=========================================
+//      USAGE
+//=========================================    
+
+//=========================================
+//      VARIABLES
+//=========================================
+
+//=========================================
+//      IMPORTS
+//=========================================
+
+//=========================================
+//      MIXINS
+//=========================================
+
+$font_size_reg: 14px;
+$font-size_enl: 16px;
+$font_size_larg: 20px;
+
+
+//=========================================
+//      GLOBAL STYLES
+//=========================================
+
+    // *, *:before, *:after { box-sizing: border-box; }
+
+    body {
+        display: flex;
+        justify-content: center;
+        background-color: #f1f1f1;
+    }
+
+    // .anthony {
+    //     color: green;
+    //     font-size: 1em;
+    //     background-color: yellow;
+
+    //     display: flex;
+    //     flex-direction: row;
+    //     justify-content: flex-start;
+    //     align-items: left;
+    // }
+    
+    // #test {
+    //     height: 100px;
+    //     width: 100px;
+    //     background-color: green;
+    // }
+
+    table {
+        // border: 1px solid #fff;
+        width: 600px;
+        border-collapse: collapse;
+        margin: 20px 0;
+        background-color: #fff;
+    }
+    td {
+        // border: 1px solid #cccccc;
+        font-size: $font_size_reg;
+    }
+    tr {
+        // border: 1px solid #e6e6e6;
+        &.a, &.b {
+            width: 100%;
+            td {
+                text-align: center;
+            }
+        }
+        &.a {
+            img {
+                padding: 10px 0;
+            }
+        }
+        &.b {
+            td {
+                // background-image: url('https://files.constantcontact.com/1ab9e071701/379df376-766a-4700-a0c4-e385a1cd19f2.png'); 
+                // background-repeat: no-repeat; 
+                // background-size: contain;
+                // background-position: center;
+                // height: 300px;
+                background-color: transparent;
+                img {
+                    width: 100%;
+                }
+            }
+        }
+        &.c {
+            td {
+                text-align: center;
+                color: #084977;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 600;
+                padding: 10px;
+                font-size: $font-size_enl;
+
+            }
+        }
+        &.d {
+            td {
+                // border-bottom: 3px solid red;
+                padding: 0 10px;
+                // $pad: 10px;
+                // border-left-width: $pad;
+                // border-right-width: $pad;
+
+                hr {
+                    background-color: #084977;
+                    height: 1px;
+                    // padding: 0 10px;
+                }
+            }
+        }
+        &.e {
+            td {
+                text-align: center;
+                color: #333;
+                font-family: Arial, Helvetica, sans-serif;
+                padding: 10px;
+
+                // font-weight: 600;
+                a {
+                    text-decoration: none;
+                    color: #333;
+                }
+            }
+        }
+        &.f {
+            td {
+                ul {
+                    text-align: center;
+                    text-align: center;
+                    list-style-type: none;
+                    padding-left: 0;
+                    li {
+                        text-align: center;
+                        color: #333;
+                        font-family: Arial, Helvetica, sans-serif;
+                        padding-bottom: 10px;
+                    }
+                }
+            }
+        }
+        &.g {
+            td {
+                text-align: center;
+                img {
+                    width: 80%;
+                }
+            }
+        }
+        &.h {
+            background-color: #084977;
+            td {
+                text-align: center;
+                color: #fff;
+                font-family: Arial, Helvetica, sans-serif;
+                font-weight: 600;
+                font-size: $font_size_larg;
+                // height: 88px;
+                padding: 10px 20px;
+
+                img {
+                    width: 32px;
+                }
+            }
+        }
+
+        
+
+        &.i {
+            td {
+                a {
+                    // width: 100%;
+                    display: block;
+                    // border: 1px solid red;
+                    &.right {
+                        text-align: right;
+                        padding-right: 10px;
+                    }
+                    &.left {
+                        text-align: left;
+                        padding-left: 10px;
+                    }
+                }
+               
+                img {
+                    max-width: 100%;
+                    height: auto;
+                    width: 130px;
+                }
+            }
+        }
+
+        &.j {
+            td {
+                height: 40px;
+                font-size: $font_size_reg;
+                img {
+                    // padding-bottom: 10px;
+                }
+            }
+            
+        }
+
+    }
+//=========================================
+//      SECTION A
+//=========================================
+
+//=========================================
+//      SECTION B
+//=========================================
+    
+
+//=========================================
+//      MEDIA QUERIES
+//=========================================
+
+
+    @media screen and (max-width: 400px) {
+
+        
+    }
